@@ -1,3 +1,49 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html, body{height:100%;background-color:#2f2f2f;}
+.container{min-height:1800px}
+
+#main-layout{
+	width:1452px;
+	margin: 0 auto;
+	background:black url("pronsbanner3.png") no-repeat;
+	background-size: 100% 750px;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 9px 11px 20px black;
+	border-radius: 0;
+	margin-bottom:60px;
+}
+
+.banner-overlay{
+	height:400px;
+}
+
+#timeline{
+	min-height:800px;
+	padding:15px;
+}
+
+#occupy-right-top{
+	float:right;
+	height:300px;
+	width:200px;
+}
+
+#time-line-addition{
+	position:relative;
+	min-height:100px;
+	overflow:hidden;
+	color:#fff;
+	border:dashed 3px #FFF;
+}
+
+.time-line-overlay{
+	position:absolute;
+	opacity:.3;
+	background-color:gray;
+	height:100%;
+	width:100%;
+
+}
