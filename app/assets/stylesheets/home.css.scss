@@ -5,8 +5,7 @@ html, body{height:100%;background-color:#2f2f2f;}
 .container{min-height:1800px}
 
 #main-layout{
-	width:1452px;
-	margin: 0 auto;
+	margin: 20px auto;
 	background:black url("pronsbanner3.png") no-repeat;
 	background-size: 100% 750px;
 	-moz-box-shadow: 10px 10px 5px #888;
@@ -18,11 +17,6 @@ html, body{height:100%;background-color:#2f2f2f;}
 
 .banner-overlay{
 	height:400px;
-}
-
-#timeline{
-	min-height:800px;
-	padding:15px;
 }
 
 #occupy-right-top{
