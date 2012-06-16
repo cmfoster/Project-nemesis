@@ -13,5 +13,9 @@ $(document).ready(function(){
 		$("#timelineContainer > div").fadeIn(1000);
 	});
 	$("#timelineContainer").css("height", "auto");
-	$(".CBmodal").colorbox({inline:true, initialWidth:100, maxWidth:682, initialHeight:100, transition:"elastic",speed:750});		
+	$(".youtube").colorbox({iframe:true, innerWidth:725, innerHeight:544});		
+	$(".timelineMinor dt").hover(function(){
+		$(this).stop().animate({'padding-left': 467 }, 1500);
+	});
+	
 });

@@ -232,8 +232,8 @@ a.expandAll:hover {
 
 div.timelineMajor {
 	clear:left;
-/*	float:left;
-*/	margin:0 0 12px;
+	float:left;
+	margin:0 0 12px;
 	width:900px;
 }
 
@@ -267,8 +267,8 @@ div.timelineMajor {
 
 dl.timelineMinor {
 	clear:left;
-/*	float:left!important;
-*/	margin:0 12px 0 0!important;
+	float:left!important;
+	margin:0 12px 0 0!important;
 	padding:4px 4px 4px 0!important;
 	position:relative;
 	width:880px;
@@ -312,16 +312,16 @@ dl.timelineMinor {
 		.timelineMinor dd h3 {
 			color:#FFF;
 			clear:both;
-/*			float:left;
-*/			font-size:1.5em!important;
+			float:left;
+			font-size:1.5em!important;
 			margin:0;
 			white-space:nowrap;
 		}
 
 .timelineEvent p {
 	clear:left;
-/*	float:left;
-*/	line-height:1.5em!important;
+	float:left;
+	line-height:1.5em!important;
 	margin:6px 0 10px;
 	width:500px;
 }
