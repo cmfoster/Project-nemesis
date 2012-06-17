@@ -1,28 +1,21 @@
 #timelineContainer
 	%br.clear
-	.timelineMajor
-		%h2.timelineMajorMarker 
-			%span 2012
-		%dl.timelineMinor
-			%dt{:id=>"556991"}
-				%a BossDrum's Super Moment
-				%dd{:class=>"timelineEvent", :id=>"556991EX", :style=>"display: none;"}
-					%p Here is where history was made, and tears were cried...
-					.media
-						%a{:id=>"bossvid1", :title=>"Eve Online pvp In the Air", :href=>"http://www.youtube.com/embed/qL3bjLIlpTc", :class=>"youtube cboxElement"}
-							Watch: Eve Online pvp In the Air (panic freighter) 
-							%img{:src=>"http://img.youtube.com/vi/qL3bjLIlpTc/0.jpg", :alt=>"Bosses Awesomeness"}
-							
-	%br.clear
-	.timelineMajor
-		%h2.timelineMajorMarker 
-			%span 2011
-		%dl.timelineMinor
-			%dt{:id=>"132123"}
-				%a Something Happened Here
-				%dd{:class=>"timelineEvent", :id=>"132123EX", :style=>"display: none;"}
-					%p content goes here?
-	%br.clear
+	= render :partial => "home/event"
+	-# .timelineMajor
+	-# 	%h2.timelineMajorMarker 
+	-# 		%span 2012
+	-# 	%dl.timelineMinor
+	-# 		%dt{:id=>"556991"}
+	-# 			%a BossDrum's Super Moment
+	-# 			%dd{:class=>"timelineEvent", :id=>"556991EX", :style=>"display: none;"}
+	-# 				%p Here is where history was made, and tears were cried...
+	-# 				.media
+	-# 					%a{:id=>"bossvid1", :title=>"Eve Online pvp In the Air", :href=>"http://www.youtube.com/embed/qL3bjLIlpTc", :class=>"youtube cboxElement"}
+	-# 						Watch: Eve Online pvp In the Air (panic freighter) 
+	-# 						%img{:src=>"http://img.youtube.com/vi/qL3bjLIlpTc/0.jpg", :alt=>"Bosses Awesomeness"}
+	-# 						
+	-# %br.clear
+
 -# #time-line-addition.span5
 -# 	.time-line-overlay
 -# 	%p And here is some wrighting
