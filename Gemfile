@@ -6,6 +6,7 @@ gem 'haml'
 gem 'twitter-bootstrap-rails'
 gem 'devise'
 gem 'activeadmin'
+gem 'youtube_it'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
