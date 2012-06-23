@@ -1,0 +1,19 @@
+- @years_events.each_pair do |year,events|
+	.timelineMajor
+		%h2.timelineMajorMarker 
+			%span= year
+		- events.each do |event|
+			- random_id = rand(1000-9999)
+			%dl.timelineMinor
+				%dt{:id=>"#{random_id}"}
+					%a= event.title
+					%dd{:class=>"timelineEvent", :id=>"#{random_id}EX", :style=>"display: none;"}
+						- event.articles.limit(3).each do |article|
+							%p= article.body
+						- event.videos.limit(3).each do |video|
+							.media
+								%a{:id=>"bossvid1", :title=>"#{video.alt_title}", :href=>"#{video.video_url}", :class=>"youtube cboxElement"}
+									Watch: Eve Online pvp In the Air (panic freighter) 
+									%img{:src=>"#{video.image_url}", :alt=>"#{video.alt_title}"}
+						
+	%br.clear

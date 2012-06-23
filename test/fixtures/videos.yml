@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  video_url: MyString
+  alt_title: MyString
+  time_line_event_id: 1
+
+two:
+  video_url: MyString
+  alt_title: MyString
+  time_line_event_id: 1
